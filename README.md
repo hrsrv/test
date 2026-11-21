@@ -10,7 +10,7 @@ A lightweight browser calculator for planning crafted combat consumables on Octo
 - Mark items as already owned and subtract them from totals.
 - Clearly labels recipe records that still need in-game verification.
 
-## Run
+The recursive expansion is supported by recipe-name matching: when a selected recipe uses another recipe's output as an ingredient, that sub-recipe is expanded until raw materials remain. The starter data currently contains only a few examples and is not yet a complete list of OctoWoW combat-consumable crafts.\n\n## Run
 Open `index.html` in a browser, or enable GitHub Pages for the repository (Deploy from a branch: `main`, folder `/ (root)`).
 
 ## Recipe data policy
