@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "realm": "OctoWoW",
+  "notice": "Starter dataset, not an exhaustive verified recipe census. Confirmed = recipe spell and reagents visible in OctoWoW DB. Needs verification = database/forum evidence conflicts or ingredient quantities are incomplete.",
+  "recipes": [
+    {
+      "id": "mongoose-elixir",
+      "name": "Elixir of the Mongoose",
+      "profession": "Alchemy",
+      "category": "Elixirs",
+      "output": 1,
+      "status": "confirmed",
+      "source": "https://octowow.st/db/?spell=17571",
+      "sourceNote": "OctoWoW spell page lists Mountain Silversage (2), Plaguebloom (2), Crystal Vial.",
+      "ingredients": [
+        {"name":"Mountain Silversage","qty":2},
+        {"name":"Plaguebloom","qty":2},
+        {"name":"Crystal Vial","qty":1}
+      ]
+    },
+    {
+      "id": "flask-titans",
+      "name": "Flask of the Titans",
+      "profession": "Alchemy",
+      "category": "Flasks",
+      "output": 1,
+      "status": "needs-verification",
+      "source": "https://octowow.st/db/?spell=17635",
+      "sourceNote": "OctoWoW DB currently lists Gromsblood (30), Stonescale Oil (10), Black Lotus and Crystal Vial, but a later OctoWoW forum report says the Gromsblood reagent is incorrect and should be Golden Sansam. Do not rely on this recipe until checked in game.",
+      "ingredients": [
+        {"name":"Gromsblood","qty":30},
+        {"name":"Stonescale Oil","qty":10},
+        {"name":"Black Lotus","qty":1},
+        {"name":"Crystal Vial","qty":1}
+      ]
+    },
+    {
+      "id": "major-mana-potion",
+      "name": "Major Mana Potion",
+      "profession": "Alchemy",
+      "category": "Potions",
+      "output": 1,
+      "status": "needs-verification",
+      "source": "https://octowow.st/db/?spell=17606",
+      "sourceNote": "OctoWoW DB confirms the recipe spell teaches Major Mana Potion, but its spell page did not expose reagent quantities in the retrieved record. Ingredients are intentionally omitted rather than guessed.",
+      "ingredients": []
+    }
+  ]
+}
